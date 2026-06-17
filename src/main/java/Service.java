@@ -13,8 +13,10 @@ public class Service {
             new Item_Entries(3, "Laptop", "electronics", 999)
     ));
 
-    public Item_Entries search_id(){
-
+    public Item_Entries search_id(int myid){
+        for (Item_Entries ie : products){
+            if(ie.g == )
+        }
     }
 
 }

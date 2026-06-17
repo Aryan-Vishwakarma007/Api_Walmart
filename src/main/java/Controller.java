@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class Controller {
 
     @Autowired
-    private Service sr;
+    private Service service;
 
     @GetMapping("id/{myId}")
     public Item_Entries get_by_id(@PathVariable int myId){
-        return
+        return service.search_id(myId);
     }
     @GetMapping("/param")
     public Item_Entries get_by_category(@RequestParam String cat){
-        return
+        return service.
     }
 }
