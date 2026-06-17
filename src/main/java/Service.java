@@ -15,8 +15,11 @@ public class Service {
 
     public Item_Entries search_id(int myid){
         for (Item_Entries ie : products){
-            if(ie.g == )
+            if(ie.getId() ==  myid){
+                return ie;
+            }
         }
+        return null;
     }
 
 }

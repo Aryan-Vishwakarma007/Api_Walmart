@@ -15,8 +15,8 @@ public class Controller {
     public Item_Entries get_by_id(@PathVariable int myId){
         return service.search_id(myId);
     }
-    @GetMapping("/param")
-    public Item_Entries get_by_category(@RequestParam String cat){
-        return service.
-    }
+//    @GetMapping("/param")
+//    public Item_Entries get_by_category(@RequestParam String cat){
+//        return service.
+//    }
 }
